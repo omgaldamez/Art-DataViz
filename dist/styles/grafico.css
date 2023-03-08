@@ -1,0 +1,38 @@
+
+.grafico {
+  min-width: 70%;
+  width: 70%;
+  max-height: 80vh;
+}
+
+.infoGrafico {
+  min-width: 30%;
+  width: 30%;
+  max-height: 80vh;
+  text-align: center;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  color: #dfe0df;
+}
+
+.imagDispGrafico {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.imagDispGrafico svg {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.textDispGrafico{
+  
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
