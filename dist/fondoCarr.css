@@ -7,18 +7,16 @@
 
 .wrapper {
   animation: scroll 70s linear infinite;
-  background: url("fondoRothko.jpg"), #111111;
+  background: url("fondoRothkoLarge.jpg"), #111111;
   background-size: cover;
   background-repeat: none;
   color: #eee;
   height: 100vh;
-  min-width: 360px;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  perspective: 1000px;
-  perspective-origin: 50% 50%;
+  margin: 0;
   
 }
 
