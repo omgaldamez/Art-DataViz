@@ -1,14 +1,17 @@
 
 .grafico {
-  min-width: 70%;
-  width: 70%;
-  max-height: 80vh;
+  display: flex;
+  position: absolute;
+  margin-top: 0;
+  height: 80vh;
+  top:0;
 }
 
 .infoGrafico {
   min-width: 30%;
   width: 30%;
-  max-height: 80vh;
+  height: 80vh;
+  margin-left: 60%;
   text-align: center;
   display: flex;
   position: relative;
@@ -20,19 +23,33 @@
 
 .imagDispGrafico {
   display: flex;
-  align-content: center;
   justify-content: center;
+  flex-shrink: 3;
+  height: 186px;
+  width:186px;
+  margin-left: 33%;
 }
 
 .imagDispGrafico svg {
-  display: flex;
-  align-content: center;
-  justify-content: center;
+  height: auto;
 }
+
+
+  .pag3{
+    height: 100vh;
+    width: 100vw;
+    background-color: blueviolet;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  /*border: 1px solid green;*/
+  }
 
 .textDispGrafico{
   
   display: flex;
+  flex-direction: column;
   align-content: center;
   justify-content: center;
 }

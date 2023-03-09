@@ -71,8 +71,7 @@ d3.json(endpoint_arteGraf).then((datosjson) => {
 
         svg
           .append("image")
-          .attr("xlink:href", imtemp)
-          .attr("transform", "translate(70,0)");
+          .attr("xlink:href", imtemp);
       });
 
       d3.select("#" + idtemp).on("mouseleave", function () {
