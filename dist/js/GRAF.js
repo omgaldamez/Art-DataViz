@@ -59,7 +59,6 @@ d3.json(endpoint_arteGraf).then((datosjson) => {
 
       d3.select("#" + idtemp).on("mouseenter", function () {
         let imtemp = "assets/images/" + j + ".png";
-        console.log("Entra CIRC");
         d3.select("#TC1").text("Ranking: " + OrdenGraf[j - 1]);
         d3.select("#TC2").text(ObraGraf[j - 1] + ", Año: " + CreadoGraf[j - 1]);
         d3.select("#TC3").text(PintorGraf[j - 1]);
